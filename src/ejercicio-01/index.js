@@ -1,11 +1,14 @@
-function imprimirHolaMundoConCallback(callback) {
-    setTimeout(function () {
+function imprimirHolaMundoAsyncrono(callback) {
+    console.log('Imprimiendo Hola Mundo ...')
+    setTimeout(() => {
         callback('Hola, mundo')
     }, 2000)
 }
 
-imprimirHolaMundoConCallback(function (mensaje) {
+imprimirHolaMundoAsyncrono((mensaje) => {
     console.log(mensaje)
 })
+
+
 
 
