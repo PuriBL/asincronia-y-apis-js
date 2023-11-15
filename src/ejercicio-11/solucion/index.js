@@ -5,3 +5,5 @@ const promise3 = new Promise((resolve) => setTimeout(() => resolve(3), 1500))
 Promise.allSettled([promise1, promise2, promise3]).then((resultados) => {
   console.log('Estado de todas las Promises:', resultados)
 })
+
+
