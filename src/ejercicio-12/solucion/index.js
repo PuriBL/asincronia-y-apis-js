@@ -7,3 +7,5 @@ async function procesarElementos(elementos) {
 
 const elementos = [1, 2, 3, 4, 5]
 procesarElementos(elementos)
+
+
